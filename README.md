@@ -48,6 +48,6 @@ If Owner Class is Sigleton Scope and attribute class Prototoype scope. All gener
 5. session: one bean per http session
 Note: default is singleton
 
-**Sigleton**
+**Singleton**
 In spring boot singleton is Application based. In tradational Java singleton is JVM based
 
