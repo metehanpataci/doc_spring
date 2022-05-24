@@ -51,3 +51,6 @@ Note: default is singleton
 **Singleton**
 In spring boot singleton is Application based. In tradational Java singleton is JVM based
 
+**@Predestroy**
+**postCOnstruct**
+
