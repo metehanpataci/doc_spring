@@ -4,10 +4,10 @@
 
 ## SpringFramework
 
-# doc_spring
+**doc_spring**
 Spring Framework Documents
 
-# Definitions
+### Definitions
 
 **Beans**
 
@@ -22,7 +22,7 @@ Giving instance creation reponsibility to Spring framework
 
 **Application Context**
 
-# Annotations
+### Annotations
 
 **@Component**
 Spring starts managing instances of class. String creates instances of class
@@ -70,7 +70,7 @@ alternate @Component
 **@Inject**
 alternate of @Autowired
 
-## COMPONENT ANNOTATIONS
+### Component Annotations
 - @Component
 
 Generic
@@ -87,8 +87,13 @@ Business Layer
 
 Facade, UI Layer, MVC Pattern
 
+### Proporties File
 
+You can put your constan values to this file and access them by using **@Value** annotation
 
+system.basic.url = org.test.home
 
+To Access From Component
+@Value("${system.basic.url}")
 
 
