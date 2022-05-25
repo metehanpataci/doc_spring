@@ -96,4 +96,6 @@ system.basic.url = org.test.home
 To Access From Component
 @Value("${system.basic.url}")
 
+@PropertySource("classpath:app.properties")
+
 
