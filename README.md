@@ -64,6 +64,16 @@ alternate @Component
 **@Inject**
 alternate of @Autowired
 
+## COMPONENT ANNOTATIONS
+- @Component
+
+- @Repository
+
+- @Service
+
+- @Controller
+
+
 
 
 
