@@ -67,11 +67,19 @@ alternate of @Autowired
 ## COMPONENT ANNOTATIONS
 - @Component
 
+Generic
+
 - @Repository
+
+Data Layer
 
 - @Service
 
+Business Layer
+
 - @Controller
+
+Facade, UI Layer, MVC Pattern
 
 
 
