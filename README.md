@@ -54,3 +54,6 @@ In spring boot singleton is Application based. In tradational Java singleton is 
 **@Predestroy**
 **postCOnstruct**
 
+@ComponentScan("Path of the component")
+
+
