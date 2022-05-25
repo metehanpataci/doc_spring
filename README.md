@@ -56,4 +56,7 @@ In spring boot singleton is Application based. In tradational Java singleton is 
 
 @ComponentScan("Path of the component")
 
+#CDI - Context dependency Injection
+
+
 
