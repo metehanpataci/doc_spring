@@ -58,5 +58,13 @@ In spring boot singleton is Application based. In tradational Java singleton is 
 
 #CDI - Context dependency Injection
 
+**@Named** 
+alternate @Component
+
+**@Inject**
+alternate of @Autowired
+
+
+
 
 
