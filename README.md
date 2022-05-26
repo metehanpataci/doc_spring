@@ -1,8 +1,8 @@
 # SPRING BOOT
 
-- [SpringFramework](#springFramework)
+- [Spring Framework](#springFramework)
 
-## SpringFramework
+## Spring Framework
 
 **doc_spring**
 Spring Framework Documents
@@ -99,6 +99,8 @@ To Access From Component
 @PropertySource("classpath:app.properties")
 
 ## UNIT TESTING
+
+assertEquals
 
 
 
