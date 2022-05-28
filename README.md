@@ -122,4 +122,8 @@ Runs before each class creation and must be static method
 
 @RunWith(MockitoJUnitRunner.class)
 
+```
+mock(listMock.get(0)).thenReturn("Your param is zero");
+```
+
 
