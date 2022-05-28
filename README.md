@@ -110,6 +110,10 @@ This run befor every test (@Test annotation). It is important to emphasize that 
 
 @After
 
+@BeforeClass
+Runs before each class creation and must be static method
+
+@AfterClass
 
 
 
