@@ -120,6 +120,6 @@ Runs before each class creation and must be static method
 
 @InjectMocks
 
-@RunWith
+@RunWith(MockitoJUnitRunner.class)
 
 
