@@ -106,6 +106,7 @@ assertEquals
 @Test
 
 @Before
+This run befor every test (@Test annotation). It is important to emphasize that not only one execution. It works before each test.
 
 @After
 
