@@ -134,3 +134,9 @@ Mockito.when(daoMock.getData()).thenReturn(new int[]{2,4});
 ### SPRING
 @RunWith(SpringRunner.class)
 @ContectConfiguration(classed =**.class)
+
+**REST Controller**
+@RestController
+Add this annotation to the class
+
+
