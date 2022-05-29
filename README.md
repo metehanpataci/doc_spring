@@ -138,8 +138,8 @@ Mockito.when(daoMock.getData()).thenReturn(new int[]{2,4});
 **REST Controller**
 @RestController
 Add this annotation to the class
-
+```
 @GetMapping("/courses")
-public List<Courses> getCourses()
-
+public List<Courses> getCourses(){return Arrays.asList(new Course(1,"",""))}
+```
 
