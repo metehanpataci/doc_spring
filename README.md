@@ -125,5 +125,6 @@ Runs before each class creation and must be static method
 ```
 mock(listMock.get(0)).thenReturn("Your param is zero");
 ```
-
-
+### SPRING
+@RunWith(SpringRunner.class)
+@ContectConfiguration(classed =**.class)
