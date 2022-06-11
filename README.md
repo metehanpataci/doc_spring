@@ -143,3 +143,9 @@ Add this annotation to the class
 public List<Courses> getCourses(){return Arrays.asList(new Course(1,"",""))}
 ```
 
+### AOP (Aspect Oriented Programming)
+
+@Around
+You can measure execution time of process
+
+
