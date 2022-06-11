@@ -144,8 +144,17 @@ public List<Courses> getCourses(){return Arrays.asList(new Course(1,"",""))}
 ```
 
 ### AOP (Aspect Oriented Programming)
+@Before
+
+@After
+
 
 @Around
+
+
+## JDBC & JPA
+
+
 You can measure execution time of process
 
 
