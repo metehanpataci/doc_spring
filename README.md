@@ -151,10 +151,11 @@ public List<Courses> getCourses(){return Arrays.asList(new Course(1,"",""))}
 
 @Around
 
+You can measure execution time of process
 
 ## JDBC & JPA
 
+H2 is inmemory database
 
-You can measure execution time of process
 
 
