@@ -168,6 +168,37 @@ Dao and Database attribute names completely same
   
 ### JPA (Java Persistance API)
 
+Define entity and map them to columns of table 
+
+Hibernate implements JPA. Hibernate is a class
+
+JPA stands fr ORM
+
+JPA -> interface
+Hibernate -> class
+
+
+We need to have default constructor.
+```
+@Entity
+@Table(name="person")
+public class Person
+{ 
+  @Id
+  @GeneratedValue
+  private int id;
+  
+  private String name;
+  
+  private String location;
+  
+  private Date birthDate;
+}
+
+```
+
+
+
 
 
 
