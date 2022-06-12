@@ -229,6 +229,14 @@ public class Person{
 
 **Predefined Repository**
 
+```
+public interface PersonSpringDataRepository extends JpaRepository<Peron,Integer>
+{
+}
 
+```
+
+
+## SPRING MVC
 
 
