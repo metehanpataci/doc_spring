@@ -216,8 +216,18 @@ public Person findById(int id)
 ```
 
 
+***JPQL***
 
+```
+@Entity
+@NamedQuery(name="find_all_persons",query = "select p from Person p"
+public class Person{
+...
+}
 
+```
+
+***Predefined Repository***
 
 
 
