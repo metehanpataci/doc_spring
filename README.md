@@ -157,6 +157,8 @@ You can measure execution time of process
 
 H2 is inmemory database
 
+###JDBC
+
 ***RowMapper***
 
 ```
@@ -164,6 +166,7 @@ new BeanPropertyRowMapper<Person>(Person.class)
 ```
 Dao and Database attribute names completely same
   
+###JPA (Java Persistance API)
 
 
 
