@@ -157,6 +157,8 @@ You can measure execution time of process
 
 H2 is inmemory database
 
+***RowMapper***
+
 ```
 new BeanPropertyRowMapper<Person>(Person.class)
 ```
