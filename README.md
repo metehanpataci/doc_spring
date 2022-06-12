@@ -157,6 +157,13 @@ You can measure execution time of process
 
 H2 is inmemory database
 
+```
+new BeanPropertyRowMapper<Person>(Person.class)
+```
+Dao and Database attribute names completely same
+  
+
+
 
 
 
