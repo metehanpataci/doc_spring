@@ -197,6 +197,24 @@ public class Person
 
 ```
 
+```
+
+@Repository
+@Transactional
+public class PersonJpaRepository
+{
+@PersistenceContext
+EntityManager entityManager;
+
+public Person findById(int id)
+{
+   return entityManager.find(Person.class,id);
+}
+
+}
+
+```
+
 
 
 
