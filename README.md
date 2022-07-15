@@ -250,8 +250,7 @@ docket-compose
 ## KUBERNETES (K8S)
 
 kubectl
-
-'''
+´´´
 
 docker run -p 8080:8080 in28min/hello-world-rest-api:0.0.1.RELEASE
  
@@ -366,4 +365,5 @@ watch -n 0.1 curl http://34.66.241.150:8100/currency-conversion-feign/from/USD/t
 docker push in28min/mmv2-currency-conversion-service:0.0.12-SNAPSHOT
 docker push in28min/mmv2-currency-exchange-service:0.0.12-SNAPSHOT
 
-'''
+´´´
+
