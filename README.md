@@ -240,3 +240,15 @@ public interface PersonSpringDataRepository extends JpaRepository<Peron,Integer>
 ## SPRING MVC
 
 
+## DOCKER
+
+docker up
+
+docket-compose
+
+
+## KUBERNETES (K8S)
+
+kubectl
+
+
