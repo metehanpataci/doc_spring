@@ -22,6 +22,8 @@ Giving instance creation reponsibility to Spring framework
 
 **Application Context**
 
+**DAO** Data Access Object
+
 ### Annotations
 
 **@Component**
