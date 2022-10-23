@@ -242,6 +242,17 @@ public interface PersonSpringDataRepository extends JpaRepository<Peron,Integer>
 
 ## SPRING MVC
 
+### OPEN API
+Swagger UI
+```
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.6.12</version>
+        </dependency>
+```
+Note: You have to add suitable dependency for Spring boot version and compiler. You have to compile it Maven after adding dependency if yo do not compile it dependency files wont be downloaded by compiler
+
 
 ## DOCKER
 
