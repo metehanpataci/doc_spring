@@ -255,6 +255,11 @@ Note: You have to add suitable dependency for Spring boot version and compiler. 
 
 ### Content Negotiation
 
+### i8N internalization
+
+under resources folder define messages.properties file
+
+
 ## DOCKER
 
 docker up
