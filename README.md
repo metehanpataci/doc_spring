@@ -259,6 +259,10 @@ Note: You have to add suitable dependency for Spring boot version and compiler. 
 
 under resources folder define messages.properties file
 
+### JSON
+
+@JSONProperty : Changes name of the field in JSON
+
 
 ## DOCKER
 
