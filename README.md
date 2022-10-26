@@ -239,6 +239,11 @@ public interface PersonSpringDataRepository extends JpaRepository<Peron,Integer>
 ```
 
 ## ACTUATOR
+To see all URL
+add below script to properties file
+```
+management.endpoints.web.exposure.include=*
+```
 
 ## SPRING MVC
 
