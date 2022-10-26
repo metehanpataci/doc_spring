@@ -239,6 +239,7 @@ public interface PersonSpringDataRepository extends JpaRepository<Peron,Integer>
 ```
 
 ## ACTUATOR
+localhost:8080/actuator
 To see all URL
 add below script to properties file
 ```
