@@ -159,6 +159,12 @@ You can measure execution time of process
 
 H2 is inmemory database
 
+To show all swl queries
+properties file
+```
+spring.jpa.show-sql=true
+```
+
 ### JDBC
 
 ***RowMapper***
@@ -245,6 +251,9 @@ add below script to properties file
 ```
 management.endpoints.web.exposure.include=*
 ```
+
+## HAL EXPLORER (JSON HYPERTEXT APPLICATION LANGUAGE)
+
 
 ## SPRING MVC
 
