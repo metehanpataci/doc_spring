@@ -254,6 +254,8 @@ management.endpoints.web.exposure.include=*
 
 ## HAL EXPLORER (JSON HYPERTEXT APPLICATION LANGUAGE)
 
+## Profiles
+spring.profiles.active = dev
 
 ## SPRING MVC
 
