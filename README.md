@@ -330,6 +330,29 @@ spring.h2.console.settings.trace=true
 spring.h2.console.settings.web-allow-others=true
 
 ```
+Notice: To access H2 Console programmer have to five access by using springsecurity config
+
+example
+```
+
+	@Override
+	protected void configure(HttpSecurity http) throws Exception {
+		http.authorizeRequests().antMatchers("/*","swagger-ui.html").permitAll();
+		http.authorizeRequests().antMatchers("/*","h2-console").permitAll();
+		http.authorizeRequests().antMatchers("/").permitAll().and()
+				.authorizeRequests().antMatchers("/h2-console/**").permitAll();
+		http.csrf().disable();
+		http.headers().frameOptions().disable();
+		/*
+		http.authorizeRequests()
+				.anyRequest().
+						authenticated()
+				.and()
+				.httpBasic();
+
+		 */
+	}
+```
 
 ## DOCKER
 
