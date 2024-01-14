@@ -280,6 +280,56 @@ under resources folder define messages.properties file
 
 @JSONProperty : Changes name of the field in JSON
 
+### Flyway
+
+Flyway configuration
+properties file
+```
+spring.flyway.locations=classpath:/db/migration
+spring.flyway.schemas=testschema
+```
+
+pom.xml
+```
+	<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+		</dependency>
+
+  ...
+
+			<plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+				<configuration>
+					<url>jdbc:h2:mem:testschema</url>
+					<user>sa</user>
+					<password></password>
+				</configuration>
+			</plugin>
+```
+
+### H2
+
+pom xml
+```
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<!--
+			<scope>runtime</scope>
+			-->
+		</dependency>
+```
+
+properties file
+```
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+spring.h2.console.settings.trace=true
+spring.h2.console.settings.web-allow-others=true
+
+```
 
 ## DOCKER
 
