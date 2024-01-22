@@ -254,7 +254,7 @@ management.endpoints.web.exposure.include=*
 
 ## HAL EXPLORER (JSON HYPERTEXT APPLICATION LANGUAGE)
 
-## Profiles
+## SPRING MVC
 spring.profiles.active = dev
 
 ## SPRING MVC
@@ -279,6 +279,9 @@ under resources folder define messages.properties file
 ### JSON
 
 @JSONProperty : Changes name of the field in JSON
+
+### JaCoCO
+Code Covarage
 
 ### Flyway
 
